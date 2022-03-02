@@ -88,7 +88,10 @@ button:focus{
     padding: 10px;
 }
 
-
+#navbarDropdownMenuLink{
+    outline: none;
+    border: none;
+}
 
 /* MENÚ ACTIVO  */
 
@@ -514,10 +517,12 @@ footer{
     color: rgb(206, 223, 215);
 }
 
-.telefono{
+a:link, a:visited,  a:hover, a:active{
     color:#cedfd7;
     text-decoration: none;
+    outline: none;
 }
+
 
 /* IR ARRIBA */
 
