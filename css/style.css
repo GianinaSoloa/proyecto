@@ -1047,7 +1047,7 @@ margin: 4%;
     }
 
     .articulos__pozo {
-        height: 1600px; 
+        height: 600px; 
         flex-direction: column;
         justify-content: space-evenly;
     }
