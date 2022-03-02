@@ -514,8 +514,8 @@ footer{
     color: rgb(206, 223, 215);
 }
 
-div.contacto > p{
-    color:rgb(255, 255, 255);
+.telefono{
+    color:#cedfd7;
     text-decoration: none;
 }
 
