@@ -129,7 +129,7 @@ button:focus{
 /* MENÚ FOCUS  */
 
 .nav-link:focus, .nav-link:hover {
-    color: #cedfd7;
+    color: #cedfd7 !important;
 }
 
 .dropdown-menu {
@@ -514,6 +514,10 @@ footer{
     color: rgb(206, 223, 215);
 }
 
+div.contacto > p{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
 
 /* IR ARRIBA */
 
