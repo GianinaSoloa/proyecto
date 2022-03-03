@@ -435,7 +435,7 @@ select{
     color:rgb(74, 79, 84);
 }
 
-#top > section.formulario > form > select{
+select{
     -webkit-appearance: none;
 }
 
