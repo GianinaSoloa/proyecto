@@ -170,7 +170,7 @@ video{
 }
 
 .parrafo{
-    background-color: rgb(74, 79, 84)
+    background-color: rgb(74, 79, 84);
 
 }
 
@@ -290,8 +290,14 @@ div.proyectoshome__imagen > div > p{
 
 .proyectoshome__enlace{
     text-decoration: none;
+    color: rgb(74, 79, 84);
+    font-weight: 700;
+}
+
+
+.proyectoshome__enlace:hover{
+    text-decoration: none;
     color: rgb(206, 223, 215);
-    font-weight: 400;
 }
 
 .proyectoshome__contenedor{
@@ -390,8 +396,13 @@ div.proyectoshome__imagen > div > p{
 
 .servicios__enlace{
     text-decoration: none;
+    color: rgb(74, 79, 84);
+    font-weight: 700;
+}
+
+.servicios__enlace:hover{
+    text-decoration: none;
     color: rgb(206, 223, 215);
-    font-weight: 400;
 }
 
 /* formulario */
