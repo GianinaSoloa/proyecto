@@ -170,8 +170,23 @@ video{
 }
 
 .parrafo{
-    background-color: rgb(74, 79, 84);
+    background-color: rgb(74, 79, 84)
 
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .parrafo p{
@@ -184,6 +199,9 @@ video{
     color:rgb(250, 250, 250);
     max-width: 900px;
     margin: 0 auto;
+    position: relative;
+    animation-name: aparecer;
+    animation-duration: 5s;
 }
 
 /* PROYECTOS */
@@ -295,11 +313,9 @@ div.proyectoshome__imagen > div > p{
     transition: all 1s;
 }
 
-
-
 .boton:hover{
     background-color: rgb(206, 223, 215);
-    
+    color: rgb(255, 255, 255);
 }
 
 .parrafo h2{
@@ -425,6 +441,7 @@ form label{
 }
 
 select{ 
+    -webkit-appearance: none;
     width: 100%;
     border: 1px solid #e8e8e8;
     padding: 8px;
@@ -433,10 +450,27 @@ select{
     font-size: 13px;
     font-weight: 200;
     color:rgb(74, 79, 84);
+    outline: none;
 }
 
-select{
-    -webkit-appearance: none;
+input:focus{
+    background-color: #cedfd7;
+    transition: all 1s;
+    outline: none;
+}
+
+textarea:focus{
+    background-color: #cedfd7;
+    transition: all 1s;
+    outline: none;
+}
+
+option i{
+    position: relative;
+}
+
+data{
+    margin-left: 1% !important;
 }
 
 /* FOOTER */
@@ -520,7 +554,7 @@ footer{
     color: rgb(206, 223, 215);
 }
 
-a:link, a:visited,  a:hover, a:active{
+.contacto a:link, .contacto a:visited, .contacto a:hover, .contacto a:active{
     color:#cedfd7;
     text-decoration: none;
     outline: none;
@@ -695,6 +729,7 @@ margin: 4%;
     text-align: center;
     color:rgb(74, 79, 84);
 }
+
 .articulos p{
     font-size: 18px;
     font-weight: 200;
@@ -770,6 +805,10 @@ margin: 4%;
         position: relative;
     }
 
+
+    header img{
+    width: 14em;
+}
     
     nav{
         margin-top: 2%;
