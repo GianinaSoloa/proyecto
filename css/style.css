@@ -236,6 +236,7 @@ video{
     justify-content: center;
     align-content: center;
     grid-gap: 30px;
+    overflow: hidden;
 }
 
 .proyectoshome__imagen{
