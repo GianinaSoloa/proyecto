@@ -20,6 +20,13 @@ html, body {
     color:rgb(74, 79, 84);
 }
 
+.ixo-mouse
+{
+	z-index:1;
+	margin-right: auto;	
+	margin-left: auto;
+	margin-top: 0%;
+}
 
 /* HEADER */
 
@@ -603,7 +610,6 @@ footer{
 #arriba a:hover {
 	background: #a8b9b7;
 }
-
 
 /* HTML - IMAGEN PRINCIPAL */
 
