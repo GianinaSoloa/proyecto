@@ -116,6 +116,19 @@ div.proyectoshome__imagen > div > p{
     }
 }
 
+.boton__Info{
+    @extend .boton;
+    background-color: #a4acb6;
+
+}
+
+.boton__Proyectos{
+    @extend .boton;
+    background-color: #6f7477;
+    
+}
+
+
 .parrafo h2{
     font-size: 33px;
     font-weight: 200;
