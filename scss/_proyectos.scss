@@ -100,15 +100,19 @@ div.proyectoshome__imagen > div > p{
     display: none;
 }
 
-.boton{
+@mixin boton ($colorfondo){
     text-decoration: none;
     color: $color;
     font-size: 18px;
     font-weight: 400;
     padding: 2% 5%;
-    background-color: $main-color;
+    background-color: $colorfondo;
     border-radius: 5px;
     transition: all 1s;
+}
+
+.boton{
+    @include boton ($main-color);
 
     &:hover{
         background-color: $secondary-color;
@@ -117,14 +121,20 @@ div.proyectoshome__imagen > div > p{
 }
 
 .boton__Info{
-    @extend .boton;
-    background-color: #a4acb6;
-
+    @include boton (#a4acb6);
+    &:hover{
+        background-color: $secondary-color;
+        color: $color;
+    }
 }
 
 .boton__Proyectos{
-    @extend .boton;
-    background-color: #6f7477;
+    @include boton (#6f7477);
+    &:hover{
+        background-color: $secondary-color;
+        color: $color;
+    }
+
     
 }
 
