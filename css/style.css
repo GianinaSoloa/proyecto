@@ -142,16 +142,17 @@ video {
   width: 100%;
   z-index: -1; }
 
-.titulo, .titulo h1, .titulo h2 {
+.titulo h1 {
+  font-size: 55px;
   font-weight: 200;
   padding-top: 4%;
   text-align: center; }
 
-.titulo h1 {
-  font-size: 55px; }
-
 .titulo h2 {
   font-size: 23px;
+  font-weight: 200;
+  padding-bottom: 4%;
+  text-align: center;
   letter-spacing: 2px; }
 
 /* TIPOGRAFÍA */
@@ -370,7 +371,7 @@ div.proyectoshome__imagen > div > p {
 .formulario h3 {
   font-size: 23px;
   font-weight: 200;
-  padding-bottom: 4%;
+  padding-bottom: 2%;
   text-align: center;
   letter-spacing: 2px;
   color: #cedfd7; }
@@ -520,6 +521,17 @@ footer {
 
 .espacio {
   margin-bottom: 8%; }
+
+.disponibilidad, .disponibilidad__enventa, .disponibilidad__vendido {
+  font-size: 13px;
+  font-weight: 800;
+  padding: 10px 0px; }
+
+.disponibilidad__enventa {
+  color: #cedfd7; }
+
+.disponibilidad__vendido {
+  color: red; }
 
 /* HTML - GARDEN,GORINA.GARDEL */
 .proyectos__contenedor {

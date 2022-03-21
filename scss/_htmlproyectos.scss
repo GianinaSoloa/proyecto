@@ -51,3 +51,21 @@
 .espacio{
     margin-bottom: 8%;
 }
+
+
+.disponibilidad{
+    font-size: 13px;
+    font-weight: 800;
+    padding: 10px 0px; 
+}
+
+
+.disponibilidad__enventa{
+    @extend .disponibilidad;
+    color: $secondary-color; 
+}
+
+.disponibilidad__vendido{
+    @extend .disponibilidad;
+    color: red; 
+}
