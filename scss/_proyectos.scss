@@ -111,7 +111,7 @@ div.proyectoshome__imagen > div > p{
     transition: all 1s;
 }
 
-.boton{
+.boton, .boton__form{
     @include boton ($main-color);
 
     &:hover{
