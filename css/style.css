@@ -364,7 +364,7 @@ div.proyectoshome__imagen > div > p {
 
 .formulario h3 {
   font-size: 23px;
-  font-weight: 200;
+  font-weight: 300;
   padding-bottom: 2%;
   text-align: center;
   letter-spacing: 2px;
@@ -629,6 +629,9 @@ footer {
 /******** TABLET ********/
 @media only screen and (max-width: 768px) {
   /* HOME TABLET */
+  /* MENÚ TABLET */
+  #navbarNavDropdown ul a {
+    padding: 1%; }
   /* PROYECTOS TABLET */
   .proyectos__home {
     height: 950px; }
